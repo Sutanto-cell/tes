@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio Sederhana</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet"><style>
+        body {
+            background-color: gainsboro;
+        }
+        .portfolio-header {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            cursor: pointer;
+        }
+        .portfolio-item {
+            background-color: #f8f9fa;
+            padding: 20px;
+            height: 100%;
+            transition: all .6s ease ;
+        }
+        .portfolio-item:hover {
+            background-color: darkslategrey;
+            margin: 10px;
+            cursor: pointer;
+            color: #f8f9fa;
+        }
+        footer {
+            bottom: 10px;
+            position: fixed;
+            text-align: center;
+            width: 100%;    
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <header class=" portfolio-header">
+            <h1>Portfolio Sederhana</h1>
+        </header>
+        
+        <div class="row">
+            <div class="col-md-4 mb-4 ">
+                <div class="portfolio-item rounded-2 shadow-lg">
+                    <h2>Nama</h2>
+                    <p class="text-truncate"> | Sutanto | </p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 ">
+                <div class="portfolio-item rounded-2 shadow-lg">
+                    <h2>Program Studi</h2>
+                    <p class="text-truncate"> | Teknologi Informasi |</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 ">
+                <div class="portfolio-item rounded-2 shadow-lg">
+                    <h2>Kontak</h2>
+                    <p class="text-truncate"> | 0823 6036 4207 |</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<footer><b>Copyright &copy; Sutanto USU 2024 </b></footer>
+</body>
+</html>
+    <script src="bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>
